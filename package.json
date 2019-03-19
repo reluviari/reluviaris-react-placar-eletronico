@@ -10,15 +10,20 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "prop-types": "^15.7.2",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react": "^16.8.4",
+     "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8",
+    "serve": "^10.1.2"
   },
   "devDependencies": {
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   },
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot --history-api-fallback --content-base public"
+    "dev": "webpack-dev-server --inline --hot --history-api-fallback --content-base public",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "heroku-postbuild ": " npm run build"
   },
   "author": "Danilo Dias",
   "license": "MIT"
