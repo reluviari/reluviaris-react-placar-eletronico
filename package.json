@@ -20,7 +20,6 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --history-api-fallback --content-base public",
-    "build": "webpack --mode=production"
   },
   "author": "Danilo Dias",
   "license": "MIT"
