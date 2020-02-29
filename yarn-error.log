@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/danilo/.nvm/versions/node/v10.19.0/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js build
+  /Users/danilo/.nvm/versions/node/v10.19.0/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js run
 
 PATH: 
   /usr/local/Cellar/postgresql@9.6/9.6.17/bin:/Users/danilo/.rbenv/shims:/usr/local/opt/openssl/bin:/usr/local/opt/libxslt/bin:/usr/local/opt/libxml2/bin:/usr/local/sbin:/Users/danilo/.nvm/versions/node/v10.19.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/postgresql@9.6/9.6.17/bin:/Users/danilo/.rbenv/shims:/usr/local/opt/openssl/bin:/usr/local/opt/libxslt/bin:/usr/local/opt/libxml2/bin:/usr/local/sbin:/Users/danilo/.nvm/versions/node/v10.19.0/bin:/Users/danilo/Android/Sdk/tools/bin:/Users/danilo/Android/Sdk/platform-tools:/Users/danilo/Android/Sdk/emulator:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/danilo/Android/Sdk/tools/bin:/Users/danilo/Android/Sdk/platform-tools:/Users/danilo/Android/Sdk/emulator:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/danilo/Projects/Development/Js/reluviaris-placar-eletronico-react/package.json: Unexpected token } in JSON at position 661
+  SyntaxError: /Users/danilo/Projects/Development/Js/reluviaris-placar-eletronico-react/package.json: Unexpected token / in JSON at position 662
       at JSON.parse (<anonymous>)
       at /usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
@@ -43,7 +43,8 @@ npm manifest:
       "webpack-dev-server": "^2.3.0"
     },
     "scripts": {
-      "dev": "webpack-dev-server --inline --hot --history-api-fallback --content-base public",
+      "dev": "webpack-dev-server --inline --hot --history-api-fallback --content-base public"
+      // "start": "yarn start"
     },
     "author": "Danilo Dias",
     "license": "MIT"
