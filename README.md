@@ -1,4 +1,3 @@
-# reluviaris-react-webpack
-Learning React + Webpack
+Learning React + Webpack - Components, States and Props
 
 # npm run dev
