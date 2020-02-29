@@ -1,3 +1,1 @@
-Learning React + Webpack - Components, States and Props
-
-# npm run dev
+# Learning React + Webpack - Components, States and Props

@@ -1,7 +1,7 @@
 {
-  "name": "reluviaris-react",
-  "version": "0.0.0",
-  "description": "Reluviaris React.",
+  "name": "reluviaris-placar-eletronico-react",
+  "version": "0.0.1",
+  "description": "Reluviaris Placar Eletrônico React",
   "main": "src/index.js",
   "dependencies": {
     "babel-core": "^6.22.1",
@@ -14,11 +14,13 @@
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
+    "react-devtools": "^4.4.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   },
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot --history-api-fallback --content-base public"
+    "dev": "webpack-dev-server --inline --hot --history-api-fallback --content-base public",
+    "build": "webpack --mode=production"
   },
   "author": "Danilo Dias",
   "license": "MIT"
