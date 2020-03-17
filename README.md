@@ -10,5 +10,4 @@
 ![Yarn](/images/logo-yarn.png)
 ![VSCode](/images/logo-VSCode.png)
 ![Git](/images/logo-git.png)
-![GitHub](/images/logo-github.png)<br/>
-![Rocketseat](/images/logo-rocketseat.png)
+![GitHub](/images/logo-github.png)
